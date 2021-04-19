@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Loafing Around</title>
+<style type="text/css">
+html,
+body {
+height: 100%;
+}
+
+body {
+<!--background-image: url(bg1.jpg);-->
+background-color:rgb(252,231 , 237);
+background-repeat: no-repeat;
+background-size: 100% 100%;
+background-attachment: fixed;
+}
+
+</style> <!--/* To make margins on both side of the page */-->
+<style type="text/css">
+    html, body {
+        margin: 0;auto;
+        border: 0;
+        width: 960px;
+    }
+
+    body {
+        padding: 0 180px;
+    }
+
+    #main {
+        margin: 0 auto; <!--/* in case you want to set a fixed width on this as well */-->
+    }
+	<!--/* MAp */-->
+	#theMap iframe {
+ height: 100%;
+ width: 85%;
+ 
+}
+<!--/* 
+#overlay {
+ background: rgba(0, 0, 0, .9);
+ color: #fff;
+ margin-top: 150px;
+ padding: 20px;
+ position: absolute;
+ text-align: center;
+ width: 100%;
+}*/-->
+ 
+#overlay h2 {
+ font: 200 4em/1.5em "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+ 
+#overlay p {
+ font: 100 1.2em/1.5em "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+</style>
+
+<body>
+    <div id="main"></div>
+</body>
+</head>
+<align="right">
+<table>
+<tr>
+<td>
+<img src="logo.png">
+</td>
+<td>
+	<a href=home.html><input type=button name=b1	value=Home OnClick="a();" style="background-color:transparent; color:black;  border-style: none; border-width: 0px 0px 
+0px 0px"></a>
+	</BUTTON>
+</td>
+<td>
+	<a href=about.html><input type=button name=b2	value="About us" OnClick="b();" style="background-color:transparent; color:black;  border-style: none; border-width: 0px 0px 
+0px 0px"></a>
+	</BUTTON>
+</td>
+<td>
+	<a href=menufp.html><input type=button name=b2	value="Menu" OnClick="b();"style="background-color:transparent; color:black;  border-style: none; border-width: 0px 0px 
+0px 0px"></a>
+	</BUTTON>
+</td>
+<td>
+	<a href=contact.html><input type=button name=b2	value="Contact" OnClick="b();" style="background-color:transparent; color:black;  border-style: none; border-width: 0px 0px 
+0px 0px"></a>
+	</BUTTON>
+<td>
+	<a href=order.html><input type=button name=b2	value="Order now" OnClick="b();" style="background-color:transparent; color:black;  border-style: none; border-width: 0px 0px 
+0px 0px"></a>
+	</BUTTON>
+</td>
+<td>
+	<a href=gallery.html><input type=button name=b2	value="Gallery" OnClick="b();" style="background-color:transparent; color:black;  border-style: none; border-width: 0px 0px 
+0px 0px"></a>
+	</BUTTON>
+	<td>
+	<td>
+	<a href=career.html><input type=button name=b2	value="Career" OnClick="b();" style="background-color: transparent; border-style: none; border-width: 0px 0px 
+0px 0px">
+	</BUTTON>
+	</td>
+	<td><a href=survey.html><input type=button name=b2	value="Survey" OnClick="b();" style="background-color: transparent; border-style: none; border-width: 0px 0px 
+0px 0px">
+	</BUTTON></td>
+	<td><a href=FAQ.html><input type=button name=b2	value="FAQ" OnClick="b();" style="background-color: transparent; border-style: none; border-width: 0px 0px 
+0px 0px">
+	</BUTTON></td>
+</table>
+ <table style="background-color:rgb(252,231 , 237)">
+<tr>
+<td width="30%">
+<img src="contact.jpg">
+</td>
+<td align="left"width="70%" style="font-family:arial;">
+<center><b>Thank you for taking Loafing Around Customer Survey</b></center><br>
+<center>We value your candid feedback and appretiate you taking the time for completing our customer survey</center><br><br>
+ 
+</td>
+</tr>
+</table>
+<br>
+<br>
+
+<table cellspacing="10" style="background-color:rgb(251,240,244)" >
+<tr>
+<td>
+<img src="contact1.jpg">
+</td>
+<td align="left" style="font-family:arial;">
+<!--<p><font-style="Century Schoolbook"> Meet Jennifer</font>-->
+<I><b>Contact information</I></b><br> <br>
+<center><input type="text" name="t1" size="50" placeholder="Name..." style="width:556px;height:34px;"></center>
+<center><input type="text" name="t1" size="50" placeholder="Day and Date of visit..." style="width:556px;height:34px;"></center>
+<center><input type="text" name="t1" size="50" placeholder="Name of Host/Hostess..." style="width:556px;height:34px;"></center>
+<center><input type="text" name="t1" size="50" placeholder="Phone No..." style="width:556px;height:34px;"></center><br>
+</td></tr></table>
+<br><br>
+<table style="background-color:rgb(252,231 , 237)">
+<tr>
+<td align="left"width="50%" style="font-family:arial;">
+<tr>
+<td>
+<b>Restraunt Appearence </b><br><br>
+1.Was the restraunts outside appearance attractive?<br>
+<input type="radio" name="r1">Needs Improvement <br>
+<input type="radio" name="r1">Good <br>
+<input type="radio" name="r1">Excellent <br><br>
+
+2.Did the outside appear to be clean-clear sidewalks, clean windows and doors etc.?<br>
+<input type="radio" name="r2">Needs Improvement <br>
+<input type="radio" name="r2">Good <br>
+<input type="radio" name="r2">Excellent <br><br>
+
+3.Was the restraunt clean and attractive inside?<br>
+<input type="radio" name="r3">Needs Improvement <br>
+<input type="radio" name="r3">Good <br>
+<input type="radio" name="r3">Excellent <br><br>
+
+4.Was the seating arrangement spacious and attractive?<br>
+<input type="radio" name="r4">Needs Improvement <br>
+<input type="radio" name="r4">Good <br>
+<input type="radio" name="r4">Excellent <br><br>
+
+<b>Restraunt Food </b><br><br>
+1.How was the quality of food served?<br>
+<input type="radio" name="r5">Needs Improvement <br>
+<input type="radio" name="r5">Good <br>
+<input type="radio" name="r5">Excellent <br><br>
+
+2.How was the presentation ofthe food?<br>
+<input type="radio" name="r6">Needs Improvement <br>
+<input type="radio" name="r6">Good <br>
+<input type="radio" name="r6">Excellent <br><br>
+
+<b>Restraunt Staff </b><br><br>
+1.Were you promptly greeted by the host/hostess?<br>
+<input type="radio" name="r7">Yes <br>
+<input type="radio" name="r7">No <br><br>
+
+2.Was the greeting friendly and professional?<br>
+<input type="radio" name="r8">Yes <br>
+<input type="radio" name="r8">No <br><br>
+<b>Suggestions</b><br>
+<textarea> </textarea>
+<center><input type="button" name="b1" value="Submit" style="background-color:#d71155; color:White; width:150px; height:40px;"></center>
+</td>
+</tr>
+
+
+
+</table>
+<br><br>
+
+
+<div id="inner-footer" class="wrap cf" style="text-align:center;border:1px solid #F08080" >
+					<a href="http://www.beverlysbakery.com" rel="nofollow"><img src="logo.png" alt="" ></a>
+					<h4>Tuesday — Friday: 7:30am to 6pm <span>•</span> Saturday: 8am to 5pm <span>•</span> Sunday, Monday: Closed </h4>
+					<p class="source-org copyright">&copy; 2018 Loafing Around. All rights reserved | <a href="http://www.google.com">Photo Credits</a></p><p class="design">Design by <a href="http://www.ashleyandmalone.com" target="_blank">Shambhavi Lau</a></p>
+				
+				</div>
+	<br>	<br>
+			</footer>
+
+</div>
+
+</body>
+</html>

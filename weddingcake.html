@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style type="text/css">
+    html, body {
+        margin: 0;auto;
+        border: 0;
+        width: auto;;
+    }
+
+    body {
+        padding: 0 180px;
+    }
+
+    #main {
+        margin: 0 auto; /* in case you want to set a fixed width on this as well */
+    }
+</style>
+<style>
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides1, .mySlides2 {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 800px;
+  max-height: 800px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a grey background color */
+.prev:hover, .next:hover {
+  background-color: #f1f1f1;
+  color: black;
+}
+</style>
+</head>
+<body>
+<h1>
+<table>
+<tr>
+<td>
+<img src="logo.png">
+</td>
+<td>
+	<a href=home.html><input type=button name=b1	value=Home OnClick="a();" style="background-color:transparent; color:black;  border-style: none; border-width: 0px 0px 
+0px 0px"></a>
+	</BUTTON>
+</td>
+<td>
+	<a href=about.html><input type=button name=b2	value="About us" OnClick="b();" style="background-color:transparent; color:black;  border-style: none; border-width: 0px 0px 
+0px 0px"></a>
+	</BUTTON>
+</td>
+<td>
+	<a href=menufp.html><input type=button name=b2	value="Menu" OnClick="b();"style="background-color:transparent; color:black;  border-style: none; border-width: 0px 0px 
+0px 0px"></a>
+	</BUTTON>
+</td>
+<td>
+	<a href=contact.html><input type=button name=b2	value="Contact" OnClick="b();" style="background-color:transparent; color:black;  border-style: none; border-width: 0px 0px 
+0px 0px"></a>
+	</BUTTON>
+<td>
+	<a href=order.html><input type=button name=b2	value="Order now" OnClick="b();" style="background-color:transparent; color:black;  border-style: none; border-width: 0px 0px 
+0px 0px"></a>
+	</BUTTON>
+</td>
+<td>
+	<a href=gallery.html><input type=button name=b2	value="Gallery" OnClick="b();" style="background-color:transparent; color:black;  border-style: none; border-width: 0px 0px 
+0px 0px"></a>
+	</BUTTON>
+</table>
+</h1>
+<h2 style="text-align:center"></h2>
+
+<div class="slideshow-container">
+  <div class="mySlides1">
+    <img src="wc2.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides1">
+    <img src="wc3.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides1">
+    <img src="wc4.jpg" style="width:100%">
+  </div>
+  <div class="mySlides1">
+    <img src="wc5.jpg" style="width:100%">
+  </div>
+  <div class="mySlides1">
+    <img src="wc6.jpg" style="width:100%">
+  </div>
+  <div class="mySlides1">
+    <img src="wc7.jpg" style="width:100%">
+  </div><div class="mySlides1">
+    <img src="wc10.jpg" style="width:100%">
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+</div>
+
+
+
+<table>
+<tr>
+<td>
+	<p><b><i><font face="Lucida Calligraphy" size=5 color="#C70039">Sweet Affirmations</font></i></b></p>
+</td>
+<td>
+	<p><b><i><font face="Lucida Calligraphy" size=5 color="#C70039">Treat of the Day!!</font></i></b></p>
+
+</td>
+</tr>
+
+<tr>
+<td>
+<div class="slideshow-container">
+  <div class="mySlides2">
+    <p align="justify"><center><h2><i><font size="3" color="#FA8072" face="Times New Roman" > Our wedding cake was absolutely perfect. A beautiful three-tier cake, white with pale pink elegant design and artfully placed flower decor. It looked amazing and was absolutely delicious. They were so sweet throughout the process and very helpful. Thank you, Beverly's!-Brit"</font></i></h2></center></p>
+  </div>
+
+  <div class="mySlides2">
+   <p align="center"><center><h2><i><font size="3" color="#FA8072" face="Times New Roman" >My mom and I made a wedding cake appointment, came in and had the most wonderful time browsing through the idea books and cake tasting. The staff made it very easy for us to make a decision—providing recommendations. We highly recommend you to anyone!" - Kate</font></i></h2></center></p>
+  </div>
+
+  <div class="mySlides2">
+    <p><center><h2><i><font size="3" color="#FA8072" face="Times New Roman" >Our wedding cake was completely customized to suit our tastes and my dress. Jennette knows what she's doing and has the best solutions and recommendations to bring cake visions to life. - Joey</font></i></h2></center></p>
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
+</div>
+</td>
+<td>
+<img src="wc4.jpg" border="5" class="small border groove">
+</td>
+</tr>
+</table>
+<script>
+var slideIndex = [1,1];
+var slideId = ["mySlides1", "mySlides2"]
+showSlides(1, 0);
+showSlides(1, 1);
+
+function plusSlides(n, no) {
+  showSlides(slideIndex[no] += n, no);
+}
+
+function showSlides(n, no) {
+  var i;
+  var x = document.getElementsByClassName(slideId[no]);
+  if (n > x.length) {slideIndex[no] = 1}    
+  if (n < 1) {slideIndex[no] = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex[no]-1].style.display = "block";  
+}
+</script>
+<br><br><!--Footer-->
+<div id="inner-footer" class="wrap cf" style="text-align:center;border:1px solid #F08080">
+					<a href="http://www.google.com" rel="nofollow"><img src="logo.png" width="150px"></a>
+					<h4>Tuesday — Friday: 7:30am to 6pm <span>•</span> Saturday: 8am to 5pm <span>•</span> Sunday, Monday: Closed </h4>
+					<p class="source-org copyright">&copy; 2018 Loafing Around. All rights reserved | <a href="http://www.google.com">Photo Credits</a></p><p class="design">Design by <a href="http://www.google.com" target="_blank">Shambhavi Lau</a></p>
+				
+				</div>
+	<br>	<br>
+			</footer>
+
+</div>
+</body>
+</html> 

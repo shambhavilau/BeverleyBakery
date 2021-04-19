@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html>
+<style type="text/css">
+    html, body {
+        margin: 0;auto;
+        border: 0;
+        width: auto;;
+    }
+
+    body {
+        padding: 0 180px;
+    }
+
+    #main {
+        margin: 0 auto; /* in case you want to set a fixed width on this as well */
+    }
+</style>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+    box-sizing: border-box;
+}
+
+.columns {
+    float: left;
+    width: 33.3%;
+    padding: 8px;
+}
+
+.price {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+	text-align: center;
+}
+
+.price:hover {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2)
+}
+
+.price .header {
+    background-color: #111;
+    color: white;
+    font-size: 25px;
+}
+
+.price li {
+    padding: 20px;
+    text-align: center;
+}
+
+.price .grey {
+    background-color: #eee;
+    font-size: 20px;
+}
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+@media only screen and (max-width: 600px) {
+    .columns {
+        width: 100%;
+    }
+}
+
+</style>
+ 
+</head>
+<body>
+<script>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<h1 
+<table >
+<tr>
+<td>
+<img src="logo.png">
+</td>
+<td>
+	<a href=home.html><input type=button name=b1	value=Home OnClick="a();" style="background-color:transparent; color:black;  border-style: none; border-width: 0px 0px 0px 0px"></a>
+	</BUTTON>
+</td>
+<td>
+	<a href=about.html><input type=button name=b2	value="About us" OnClick="b();" style="background-color:transparent; color:black;  border-style: none; border-width: 0px 0px 0px 0px"></a>
+	</BUTTON>
+</td>
+<td>
+	<a href=menufp.html><input type=button name=b2	value="Menu" OnClick="b();"style="background-color:transparent; color:black;  border-style: none; border-width: 0px 0px 0px 0px"></a>
+	</BUTTON>
+</td>
+<td>
+	<a href=contact.html><input type=button name=b2	value="Contact" OnClick="b();" style="background-color:transparent; color:black;  border-style: none; border-width: 0px 0px 0px 0px"></a>
+	</BUTTON></td>
+<td>
+	<a href=order.html><input type=button name=b2	value="Order now" OnClick="b();" style="background-color:transparent; color:black;  border-style: none; border-width: 0px 0px 0px 0px"></a>
+	</BUTTON></td>
+<td>
+	<a href=gallery.html><input type=button name=b2	value="Gallery" OnClick="b();" style="background-color:transparent; color:black;  border-style: none; border-width: 0px 0px 0px 0px"></a>
+	</BUTTON></td>
+	<td>
+	<a href=career.html><input type=button name=b2	value="Career" OnClick="b();" style="background-color: transparent; border-style: none; border-width: 0px 0px 0px 0px"></a>
+	</BUTTON>
+	</td>
+	<td>
+	<a href=survey.html><input type=button name=b2	value="Survey" OnClick="b();" style="background-color: transparent; border-style: none; border-width: 0px 0px 0px 0px"></a>
+	</BUTTON>
+	</td>
+	<td><a href=FAQ.html><input type=button name=b2	value="FAQ" OnClick="b();" style="background-color: transparent; border-style: none; border-width: 0px 0px 0px 0px"></a>
+	</BUTTON></td></tr>
+</table>
+</h1>
+
+<h2>
+
+<div class="columns" >
+  <ul class="price">
+ 
+	<li ><img src="wc2.jpg" height="200" width="200" ></li>
+	<p>INR 2000</p>
+	<p><input type="button" onClick="addProduct();" ></p></a>
+	
+      
+      
+  </ul>
+  
+</div>
+
+<div class="columns">
+  <ul class="price">
+	<li ><img src="wc3.jpg" height="200" width="200" ></li>
+	<p>INR 3500</p>
+	<p><img src="cart.png" height="20" width="20"></p>
+	
+  </ul>
+</div>
+
+<div class="columns">
+  <ul class="price">
+	<li ><img src="wc4.jpg" height="200" width="200" ></li>
+	<p>INR 1500</p>
+	<p><img src="cart.png" height="20" width="20">
+	 
+	<!--<p>Shopping-cart icon: <span class="glyphicon glyphicon-shopping-cart"></span></p>    -->
+     
+      
+      
+  </ul>
+</div>
+
+<div class="columns">
+  <ul class="price">
+	<li ><img src="m1.jpg" height="200" width="200" ></li>
+	<p>INR 100</p>
+	<p><img src="cart.png" height="20" width="20"></p>
+	 </ul>
+	
+  
+</div>
+
+<div class="columns">
+  <ul class="price">
+	<li ><img src="m2.jpg" height="200" width="200" ></li>
+	<p>INR 200</p>
+	<p><img src="cart.png" height="20" width="20"></p>
+	
+  </ul>
+</div>
+
+<div class="columns">
+  <ul class="price">
+	<li ><img src="m3.jpg" height="200" width="200" ></li>
+	<p>INR 250</p>
+	<p><img src="cart.png" height="20" width="20"></p>
+	
+  </ul>
+</div>
+
+<div class="columns">
+  <ul class="price">
+	<li ><img src="p3.jpg" height="200" width="200" ></li>
+	<p>INR 270</p>
+	<p><img src="cart.png" height="20" width="20"></p>
+	
+  </ul>
+</div>
+
+<div class="columns">
+  <ul class="price">
+	<li ><img src="p4.jpg" height="200" width="200" ></li>
+	<p>INR 500</p>
+	<p><img src="cart.png" height="20" width="20"></p>
+	
+  </ul>
+</div>
+
+<div class="columns">
+  <ul class="price">
+	<li ><img src="p5.jpg" height="200" width="200" ></li>
+	<p>INR 300</p>
+	<p><img src="cart.png" height="20" width="20"></p>
+	
+  </ul>
+</div>
+
+<div class="columns">
+  <ul class="price">
+	<li ><img src="h2.jpg" height="200" width="200" ></li>
+	<p>INR 200</p>
+	<p><img src="cart.png" height="20" width="20"></p>
+	
+  </ul>
+</div>
+
+<div class="columns">
+  <ul class="price">
+	<li ><img src="h3.jpg" height="200" width="200" ></li>
+	<p>INR 175</p>
+	<p><img src="cart.png" height="20" width="20"></p>
+
+  </ul>
+</div>
+
+<div class="columns">
+  <ul class="price">
+	<li ><img src="h4.jpg" height="200" width="200" ></li>
+	<p>INR 400</p>
+	<p><img src="cart.png" height="20" width="20"></p>
+	
+  </ul>
+</div>
+<div class="columns">
+  <ul class="price">
+	<li ><img src="w1.jpg" height="200" width="200" ></li>
+	<p>INR 350</p>
+	<p><img src="cart.png" height="20" width="20"></p>
+	
+  </ul>
+</div>
+
+<div class="columns">
+  <ul class="price">
+	<li ><img src="w2.jpg" height="200" width="200" ></li>
+	<p>INR 320</p>
+	<p><img src="cart.png" height="20" width="20"></p>
+	
+  </ul>
+</div>
+
+<div class="columns">
+  <ul class="price">
+	<li ><img src="w3.jpg" height="200" width="200" ></li>
+	<p>INR 450</p>
+	<p><img src="cart.png" height="20" width="20"></p>
+	
+  </ul>
+</div>
+
+</h2>
+
+<table>
+<tr>
+   <td><a href="order.html"><img src="cakehome10.jpg" height="150%" width="190%"></a></td>
+ </tr>
+ </table>
+<br><br><!--Footer-->
+<script>
+var products = [];
+    var cart = [];
+
+        function addProduct() {
+            /*var productID = document.getElementById("productID").value;
+            var product_desc = document.getElementById("product_desc").value;
+            var qty = document.getElementById("quantity").value;*/
+            var price = document.getElementById("price").value;
+
+            var newProduct = {
+                product_id: null,
+                product_desc: null,
+                product_qty: 0,
+                product_price: 0.00,
+            };
+            newProduct.product_id = productID;
+            newProduct.product_desc = product_desc;
+            newProduct.product_qty = qty;
+            newProduct.product_price = price;
+
+function addCart(product_id) {
+
+            for (var i = 0; i < products.length; i++) {
+                if (products[i].product_id == product_id) {
+                    var cartItem = null;
+                    for (var k = 0; k < cart.length; k++) {
+                        if (cart[k].product.product_id == products[i].product_id) {
+                            cartItem = cart[k];
+                            cart[k].product_qty++;
+                            break;
+                        }
+                    }
+                    if (cartItem == null) {
+                        
+                        var cartItem = {
+                            product: products[i],
+                            product_qty: products[i].product_qty 
+                        };
+                        cart.push(cartItem);
+                    }
+                }
+            }
+
+            renderCartTable();
+
+        }
+		
+		 function renderCartTable() {
+        var html = '';
+        var ele = document.getElementById("demo2");
+        ele.innerHTML = ''; 
+
+        html += "<table id='tblCart' border='1|1'>";
+        html += "<tr><td>Product ID</td>";
+        html += "<td>Product Description</td>";
+        html += "<td>Quantity</td>";
+        html += "<td>Price</td>";
+        html += "<td>Total</td>";
+        html += "<td>Action</td></tr>";
+        var GrandTotal = 0;
+        for (var i = 0; i < cart.length; i++) {
+            html += "<tr>";
+            html += "<td>" + cart[i].product.product_id + "</td>";
+            html += "<td>" + cart[i].product.product_desc + "</td>";
+            html += "<td>" + cart[i].product_qty + "</td>";
+            html += "<td>" + cart[i].product.product_price + "</td>";
+            html += "<td>" + parseFloat(cart[i].product.product_price) * parseInt(cart[i].product_qty) + "</td>";
+            html += "<td><button type='submit' onClick='subtractQuantity(\"" + cart[i].product.product_id + "\", this);'/>Subtract Quantity</button> &nbsp<button type='submit' onClick='addQuantity(\"" + cart[i].product.product_id + "\", this);'/>Add Quantity</button> &nbsp<button type='submit' onClick='removeItem(\"" + cart[i].product.product_id + "\", this);'/>Remove Item</button></td>";
+            html += "</tr>";
+
+           GrandTotal += parseFloat(cart[i].product.product_price) * parseInt(cart[i].product_qty);            
+
+        }
+        document.getElementById('demo3').innerHTML = GrandTotal;
+        html += "</table>";
+        ele.innerHTML = html;
+    }
+
+
+        function subtractQuantity(product_id)
+        {
+            
+            for (var i = 0; i < cart.length; i++) {
+                if (cart[i].product.product_id == product_id) {
+                    cart[i].product_qty--;
+                }
+
+                if (cart[i].product_qty == 0) {
+                    cart.splice(i,1);
+                }
+        
+            }
+            renderCartTable();
+        }
+        function addQuantity(product_id)
+        {
+            
+            for (var i = 0; i < cart.length; i++) {
+                if (cart[i].product.product_id == product_id) {
+                    cart[i].product_qty++;
+                }  
+            }
+            renderCartTable();
+        }
+        function removeItem(product_id)
+        {
+            
+            for (var i = 0; i < cart.length; i++) {
+                if (cart[i].product.product_id == product_id) {
+                    cart.splice(i,1);
+                }
+
+            }
+            renderCartTable();
+        }
+		
+</script>
+
+
+
+
+
+
+<div id="inner-footer" class="wrap cf" style="text-align:center;border:1px solid #F08080">
+					<a href="http://www.google.com" rel="nofollow"><img src="logo.png" width="150px"></a>
+					<h4>Tuesday — Friday: 7:30am to 6pm <span>•</span> Saturday: 8am to 5pm <span>•</span> Sunday, Monday: Closed </h4>
+					<p class="source-org copyright">&copy; 2018 Loafing Around. All rights reserved | <a href="http://www.google.com">Photo Credits</a></p><p class="design">Design by <a href="http://www.google.com" target="_blank">Shambhavi Lau</a></p>
+				
+				</div>
+	<br>	<br>
+			</footer>
+
+</div>
+</script>
+</body>
+</html>
